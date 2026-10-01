@@ -1,5 +1,3 @@
--- Connected Discord-GitHub | Discord: @game_forge_x | Roblox: dodlegend_6
-
 local DataServer = {}
 DataServer.__index = DataServer
 
