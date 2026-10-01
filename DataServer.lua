@@ -61,6 +61,7 @@ local function SafeInfiniteMath(value: any): InfiniteMath.Number
 	if ok and result then
 		return result
 	end
+	
 	warn(string.format("[DataServer] SafeInfiniteMath failed conversion for (%s: %s) — fallback to 0.", typeof(value), tostring(value)))
 	return InfiniteMath.new(0)
 end
